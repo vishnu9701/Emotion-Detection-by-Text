@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 
 import joblib
-model=joblib.load(open("emotion_classifier.pkl","r",encoding='utf-8'))
+model=joblib.load(open("emotion_classifier.pkl","rb",encoding='utf-8'))
 
 def predict_emotion(msg):
         result=model.predict([msg])
