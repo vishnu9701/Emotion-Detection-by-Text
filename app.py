@@ -21,7 +21,7 @@ emotions_emoji_dict = {"anger":"😠","disgust":"🤮", "fear":"😨😱", "happ
 
 def main():
         st.title("Emotion-Classifier App")
-        st.subheader("Emotion Detection by Text                      - Vishnu Pandey")
+        st.subheader("Emotion Detection by Text    ")
         with st.form(key='emotion_clf_form'):
                 input_text = st.text_area("Type Here")
                 output_text = st.form_submit_button(label='Submit')
